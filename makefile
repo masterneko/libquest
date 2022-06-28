@@ -12,7 +12,7 @@ CREATE_DIRS = mkdir -p $(@D)
 
 CXX_FLAGS := \
 	-I $(SRC_DIRECTORY) \
-	-std=c++17 
+	-std=c++2a
 
 CC_FLAGS := \
 	-I $(SRC_DIRECTORY) \
